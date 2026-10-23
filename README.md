@@ -147,3 +147,18 @@ underneath it still works, so the page is useful either way.
 
 If you'd rather not use a third party, delete the `<form>` block entirely and
 leave the email link.
+
+---
+
+## Changing the stylesheet or script (important)
+
+`/assets/*` is cached for a year (`_headers`), so browsers and Cloudflare never re-check those files.
+Every time `assets/site.*.css`, `assets/site.*.js` or `assets/theme.*.js` changes, give it a **new
+date stamp in the file name** (e.g. `site.202610231300.css` → `site.202611051200.css`) and update
+the references in every page:
+
+```bash
+grep -rl "OLDSTAMP" --include='*.html' . | xargs sed -i '' 's/OLDSTAMP/NEWSTAMP/g'
+```
+
+Keeping the old name means visitors keep the old file (this once left the homepage's infinity loop black).
