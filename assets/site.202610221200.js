@@ -24,7 +24,7 @@
   T.en={
     'states.policy':'<strong>Medicaid is changing.</strong> Work requirements, six-month renewals and tighter state budgets all take effect between now and January 2027. <a href="/updates/">What this means for waivers and waiting lists</a>.',
    
-    'nav.updates':'What\'s changing', 'banner.t':'Policy update, October 2026: Medicaid, special education and vaccine guidance have all changed.', 'banner.l':'What this means for your family', 'banner.x':'Dismiss',
+    'nav.donate':'Donate', 'nav.updates':'What\'s changing', 'banner.t':'Policy update, October 2026: Medicaid, special education and vaccine guidance have all changed.', 'banner.l':'What this means for your family', 'banner.x':'Dismiss',
    
     'footer.ded':'For Yuvan — and for every family finding their way.',
    
@@ -73,7 +73,7 @@
   T.es={
     'states.policy':'<strong>Medicaid está cambiando.</strong> Los requisitos de trabajo, las renovaciones semestrales y unos presupuestos estatales más ajustados entran en vigor entre ahora y enero de 2027. <a href="/updates/">Qué significa para los waivers y las listas de espera</a>.',
    
-    'nav.updates':'Qué está cambiando', 'banner.t':'Actualización de octubre de 2026: han cambiado Medicaid, la educación especial y las recomendaciones de vacunas.', 'banner.l':'Qué significa para su familia', 'banner.x':'Cerrar',
+    'nav.donate':'Donar', 'nav.updates':'Qué está cambiando', 'banner.t':'Actualización de octubre de 2026: han cambiado Medicaid, la educación especial y las recomendaciones de vacunas.', 'banner.l':'Qué significa para su familia', 'banner.x':'Cerrar',
    
     'footer.ded':'Para Yuvan, y para cada familia que está encontrando su camino.',
    
@@ -120,7 +120,7 @@
   };
 
   T['zh-Hans']={
-    'nav.updates':'最新政策变化', 'banner.t':'2026年10月政策更新：Medicaid、特殊教育与疫苗指南均已变更。', 'banner.l':'这对你家庭意味着什么', 'banner.x':'关闭',
+    'nav.donate':'捐款', 'nav.updates':'最新政策变化', 'banner.t':'2026年10月政策更新：Medicaid、特殊教育与疫苗指南均已变更。', 'banner.l':'这对你家庭意味着什么', 'banner.x':'关闭',
    
     'footer.ded':'献给 Yuvan，以及每一个正在寻找方向的家庭。',
    
@@ -167,7 +167,7 @@
   };
 
   T.vi={
-    'nav.updates':'Những thay đổi mới', 'banner.t':'Cập nhật chính sách tháng 10 năm 2026: Medicaid, giáo dục đặc biệt và hướng dẫn tiêm chủng đều đã thay đổi.', 'banner.l':'Điều này có ý nghĩa gì với gia đình bạn', 'banner.x':'Đóng',
+    'nav.donate':'Quyên góp', 'nav.updates':'Những thay đổi mới', 'banner.t':'Cập nhật chính sách tháng 10 năm 2026: Medicaid, giáo dục đặc biệt và hướng dẫn tiêm chủng đều đã thay đổi.', 'banner.l':'Điều này có ý nghĩa gì với gia đình bạn', 'banner.x':'Đóng',
    
     'footer.ded':'Dành cho Yuvan — và cho mọi gia đình đang tìm đường.',
    
@@ -214,7 +214,7 @@
   };
 
   T.ko={
-    'nav.updates':'달라진 정책', 'banner.t':'2026년 10월 정책 변경: 메디케이드, 특수교육, 백신 지침이 모두 바뀌었습니다.', 'banner.l':'우리 가족에게 어떤 의미인가', 'banner.x':'닫기',
+    'nav.donate':'후원하기', 'nav.updates':'달라진 정책', 'banner.t':'2026년 10월 정책 변경: 메디케이드, 특수교육, 백신 지침이 모두 바뀌었습니다.', 'banner.l':'우리 가족에게 어떤 의미인가', 'banner.x':'닫기',
    
     'footer.ded':'Yuvan에게, 그리고 길을 찾아가는 모든 가족에게.',
    
@@ -261,7 +261,7 @@
   };
 
   T.tl={
-    'nav.updates':'Mga pagbabago', 'banner.t':'Update sa patakaran, Oktubre 2026: nagbago ang Medicaid, special education at gabay sa bakuna.', 'banner.l':'Ano ang ibig sabihin nito para sa pamilya ninyo', 'banner.x':'Isara',
+    'nav.donate':'Mag-donate', 'nav.updates':'Mga pagbabago', 'banner.t':'Update sa patakaran, Oktubre 2026: nagbago ang Medicaid, special education at gabay sa bakuna.', 'banner.l':'Ano ang ibig sabihin nito para sa pamilya ninyo', 'banner.x':'Isara',
    
     'footer.ded':'Para kay Yuvan — at sa bawat pamilyang naghahanap ng daan.',
    
@@ -308,7 +308,7 @@
   };
 
   T.ht={
-    'nav.updates':'Sa k ap chanje', 'banner.t':'Mizajou politik, Oktòb 2026: Medicaid, edikasyon espesyal ak gid vaksen yo tout chanje.', 'banner.l':'Sa sa vle di pou fanmi w', 'banner.x':'Fèmen',
+    'nav.donate':'Fè yon don', 'nav.updates':'Sa k ap chanje', 'banner.t':'Mizajou politik, Oktòb 2026: Medicaid, edikasyon espesyal ak gid vaksen yo tout chanje.', 'banner.l':'Sa sa vle di pou fanmi w', 'banner.x':'Fèmen',
    
     'footer.ded':'Pou Yuvan — ak pou chak fanmi k ap chèche chemen yo.',
    
@@ -355,7 +355,7 @@
   };
 
   T.ru={
-    'nav.updates':'Что меняется', 'banner.t':'Обновление за октябрь 2026 года: изменились Medicaid, спецобразование и рекомендации по вакцинации.', 'banner.l':'Что это значит для вашей семьи', 'banner.x':'Закрыть',
+    'nav.donate':'Пожертвовать', 'nav.updates':'Что меняется', 'banner.t':'Обновление за октябрь 2026 года: изменились Medicaid, спецобразование и рекомендации по вакцинации.', 'banner.l':'Что это значит для вашей семьи', 'banner.x':'Закрыть',
    
     'footer.ded':'Для Ювана — и для каждой семьи, которая ищет свой путь.',
    
@@ -402,7 +402,7 @@
   };
 
   T.ar={
-    'nav.updates':'ما الذي يتغيّر', 'banner.t':'تحديث السياسات، أكتوبر 2026: تغيّرت إرشادات Medicaid والتربية الخاصة والتطعيمات.', 'banner.l':'ماذا يعني هذا لعائلتك', 'banner.x':'إغلاق',
+    'nav.donate':'تبرّع', 'nav.updates':'ما الذي يتغيّر', 'banner.t':'تحديث السياسات، أكتوبر 2026: تغيّرت إرشادات Medicaid والتربية الخاصة والتطعيمات.', 'banner.l':'ماذا يعني هذا لعائلتك', 'banner.x':'إغلاق',
    
     'footer.ded':'إلى يوفان، وإلى كل أسرة تبحث عن طريقها.',
    
@@ -450,7 +450,7 @@
 
 
   T.hi={
-    'nav.updates':'क्या बदल रहा है', 'banner.t':'नीति अद्यतन, अक्टूबर 2026: Medicaid, विशेष शिक्षा और टीकाकरण मार्गदर्शन तीनों बदले हैं।', 'banner.l':'आपके परिवार के लिए इसका अर्थ', 'banner.x':'बंद करें',
+    'nav.donate':'दान करें', 'nav.updates':'क्या बदल रहा है', 'banner.t':'नीति अद्यतन, अक्टूबर 2026: Medicaid, विशेष शिक्षा और टीकाकरण मार्गदर्शन तीनों बदले हैं।', 'banner.l':'आपके परिवार के लिए इसका अर्थ', 'banner.x':'बंद करें',
    
     'footer.ded':'युवन के लिए — और उन सभी परिवारों के लिए जो अपना रास्ता खोज रहे हैं।',
    
@@ -498,7 +498,7 @@
   T.ne={
     'states.policy':'<strong>Medicaid बदलिँदै छ।</strong> कामसम्बन्धी सर्त, छ महिने नवीकरण र खुम्चिएको राज्य बजेट अहिलेदेखि जनवरी २०२७ भित्र लागू हुँदै छन्। <a href="/updates/">वेभर र प्रतीक्षा सूचीका लागि यसको अर्थ</a>।',
    
-    'nav.updates':'के बदलिँदै छ', 'banner.t':'नीति अद्यावधिक, अक्टोबर २०२६: Medicaid, विशेष शिक्षा र खोपसम्बन्धी मार्गदर्शन तीनै बदलिएका छन्।', 'banner.l':'तपाईंको परिवारका लागि यसको अर्थ', 'banner.x':'बन्द गर्नुहोस्',
+    'nav.donate':'दान गर्नुहोस्', 'nav.updates':'के बदलिँदै छ', 'banner.t':'नीति अद्यावधिक, अक्टोबर २०२६: Medicaid, विशेष शिक्षा र खोपसम्बन्धी मार्गदर्शन तीनै बदलिएका छन्।', 'banner.l':'तपाईंको परिवारका लागि यसको अर्थ', 'banner.x':'बन्द गर्नुहोस्',
    
     'footer.ded':'युवनका लागि — र आफ्नो बाटो खोज्दै गरेका हरेक परिवारका लागि।',
    
@@ -544,7 +544,7 @@
   };
 
   T.mr={
-    'nav.updates':'काय बदलत आहे', 'banner.t':'धोरण अद्यतन, ऑक्टोबर २०२६: Medicaid, विशेष शिक्षण आणि लसीकरण मार्गदर्शन बदलले आहे.', 'banner.l':'तुमच्या कुटुंबासाठी याचा अर्थ', 'banner.x':'बंद करा',
+    'nav.donate':'देणगी द्या', 'nav.updates':'काय बदलत आहे', 'banner.t':'धोरण अद्यतन, ऑक्टोबर २०२६: Medicaid, विशेष शिक्षण आणि लसीकरण मार्गदर्शन बदलले आहे.', 'banner.l':'तुमच्या कुटुंबासाठी याचा अर्थ', 'banner.x':'बंद करा',
    
     'footer.ded':'युवनसाठी — आणि आपला मार्ग शोधणाऱ्या प्रत्येक कुटुंबासाठी.',
    
@@ -590,7 +590,7 @@
   };
 
   T.bn={
-    'nav.updates':'কী বদলাচ্ছে', 'banner.t':'নীতি হালনাগাদ, অক্টোবর ২০২৬: Medicaid, বিশেষ শিক্ষা ও টিকার নির্দেশনা বদলেছে।', 'banner.l':'আপনার পরিবারের জন্য এর অর্থ', 'banner.x':'বন্ধ করুন',
+    'nav.donate':'দান করুন', 'nav.updates':'কী বদলাচ্ছে', 'banner.t':'নীতি হালনাগাদ, অক্টোবর ২০২৬: Medicaid, বিশেষ শিক্ষা ও টিকার নির্দেশনা বদলেছে।', 'banner.l':'আপনার পরিবারের জন্য এর অর্থ', 'banner.x':'বন্ধ করুন',
    
     'footer.ded':'যুবনের জন্য — এবং পথ খুঁজে চলা প্রতিটি পরিবারের জন্য।',
    
@@ -636,7 +636,7 @@
   };
 
   T.ur={
-    'nav.updates':'کیا بدل رہا ہے', 'banner.t':'پالیسی اپ ڈیٹ، اکتوبر 2026: Medicaid، خصوصی تعلیم اور ویکسین رہنمائی سب بدل گئے ہیں۔', 'banner.l':'آپ کے خاندان کے لیے اس کا مطلب', 'banner.x':'بند کریں',
+    'nav.donate':'عطیہ دیں', 'nav.updates':'کیا بدل رہا ہے', 'banner.t':'پالیسی اپ ڈیٹ، اکتوبر 2026: Medicaid، خصوصی تعلیم اور ویکسین رہنمائی سب بدل گئے ہیں۔', 'banner.l':'آپ کے خاندان کے لیے اس کا مطلب', 'banner.x':'بند کریں',
    
     'footer.ded':'یُووَن کے لیے — اور ہر اُس خاندان کے لیے جو اپنا راستہ تلاش کر رہا ہے۔',
    
@@ -697,6 +697,31 @@
     });
   })();
 
+  /* ================= donations ================= */
+  (function(){
+    function money(n){ return '$'+Math.round(n).toLocaleString('en-US'); }
+    Array.prototype.forEach.call(document.querySelectorAll('.meter[data-goal]'),function(m){
+      var goal=+m.getAttribute('data-goal')||0, raised=+m.getAttribute('data-raised')||0;
+      var pct=goal?Math.min(100,raised/goal*100):0;
+      var fill=m.querySelector('.fill'); if(fill) requestAnimationFrame(function(){ fill.style.width=Math.max(pct,raised?1.5:0)+'%'; });
+      var r=m.querySelector('[data-raised-text]'); if(r) r.textContent=money(raised);
+      var g=m.querySelector('[data-goal-text]'); if(g) g.textContent=money(goal);
+      var bar=m.querySelector('.track'); if(bar){ bar.setAttribute('role','progressbar'); bar.setAttribute('aria-valuemin','0');
+        bar.setAttribute('aria-valuemax',String(goal)); bar.setAttribute('aria-valuenow',String(raised));
+        bar.setAttribute('aria-label',money(raised)+' raised of '+money(goal)); }
+    });
+    // A donate button stays "opening soon" until a real payment link is pasted into data-donate-url.
+    Array.prototype.forEach.call(document.querySelectorAll('[data-donate-url]'),function(b){
+      var url=(b.getAttribute('data-donate-url')||'').trim();
+      if(/^https:\/\//.test(url)){ b.setAttribute('href',url); b.setAttribute('rel','noopener'); }
+      else {
+        b.removeAttribute('href'); b.setAttribute('aria-disabled','true');
+        var soon=b.getAttribute('data-soon-text'); if(soon) b.textContent=soon;
+        var alt=document.getElementById(b.getAttribute('data-soon-show')||''); if(alt) alt.hidden=false;
+      }
+    });
+  })();
+
   /* ================= mobile menu drawer ================= */
   (function(){
     var btn=document.getElementById('menuBtn');
@@ -730,17 +755,21 @@
   });
 
   var themeBtn=document.getElementById('themeBtn');
-  function isDark(){
-    var t=root.getAttribute('data-theme');
-    return t==='dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  // Light is the default. Dark only when the visitor picks it (remembered on this device).
+  var SUN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+  var MOON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>';
+  function isDark(){ return root.getAttribute('data-theme')==='dark'; }
+  if(get('cg-theme')==='dark') root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
+  function syncTheme(){
+    themeBtn.innerHTML = isDark() ? SUN : MOON;
+    themeBtn.setAttribute('aria-label', isDark()?'Switch to light theme':'Switch to dark theme');
+    themeBtn.setAttribute('title', isDark()?'Light theme':'Dark theme');
   }
-  var savedTheme=get('cg-theme');
-  if(savedTheme==='dark'||savedTheme==='light') root.setAttribute('data-theme',savedTheme);
-  function syncTheme(){ themeBtn.textContent = isDark() ? '☀' : '☾'; themeBtn.setAttribute('aria-label', isDark()?'Light mode':'Dark mode'); }
   syncTheme();
   themeBtn.addEventListener('click',function(){
-    var next = isDark() ? 'light':'dark';
-    root.setAttribute('data-theme',next); set('cg-theme',next); syncTheme();
+    if(isDark()){ root.removeAttribute('data-theme'); set('cg-theme','light'); }
+    else { root.setAttribute('data-theme','dark'); set('cg-theme','dark'); }
+    syncTheme();
   });
 
   /* ================= i18n engine ================= */

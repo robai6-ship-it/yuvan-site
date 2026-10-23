@@ -5,29 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>What the autism research actually says — Yuvan</title>
 <meta name="description" content="Where the evidence is strong, where it is genuinely uncertain, and which treatments to treat with real caution.">
-<link rel="canonical" href="https://example.org/research/">
+<link rel="canonical" href="https://yuvan.us/research/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Yuvan">
 <meta property="og:title" content="What the autism research actually says — Yuvan">
 <meta property="og:description" content="Where the evidence is strong, where it is genuinely uncertain, and which treatments to treat with real caution.">
-<meta property="og:url" content="https://example.org/research/">
-<meta property="og:image" content="https://example.org/assets/share.png">
+<meta property="og:url" content="https://yuvan.us/research/">
+<meta property="og:image" content="https://yuvan.us/assets/share.png">
 <meta property="og:image:alt" content="Yuvan — a complete guide to autism for families">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="What the autism research actually says — Yuvan">
 <meta name="twitter:description" content="Where the evidence is strong, where it is genuinely uncertain, and which treatments to treat with real caution.">
-<meta name="twitter:image" content="https://example.org/assets/share.png">
-<meta name="theme-color" content="#FBF8F4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141C1A" media="(prefers-color-scheme: dark)">
+<meta name="twitter:image" content="https://yuvan.us/assets/share.png">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/assets/site.202610131506.css">
+<meta name="theme-color" content="#FAFAF8">
+<script src="/assets/theme.202610221200.js"></script>
+<link rel="stylesheet" href="/assets/site.202610221200.css">
 
 </head>
 <body>
@@ -45,18 +45,25 @@
 <header class="site">
   <div class="bar">
     <button class="menubtn" id="menuBtn" aria-expanded="false" aria-controls="sidenav">
-      <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M1 1h14M1 6h14M1 11h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M1 1h14M1 6h14M1 11h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       <span data-i18n="menu">Menu</span>
     </button>
     <a class="logo" href="/">
       <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M7 20.5c0 8.3 6.7 15 15 15s15-6.7 15-15" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M2.5 24c2.6 9.4 10.4 16 19.5 16s16.9-6.6 19.5-16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".32"/><circle cx="22" cy="13.5" r="6" fill="currentColor"/></svg>
       <span class="brandtext"><span class="names"><b>Yuvan</b><i>Common Ground</i></span><em data-i18n="tagline">A complete autism guide</em></span>
     </a>
+    <nav class="topnav" aria-label="Quick links">
+      <a href="/understanding/" data-i18n="nav.understanding">Understanding autism</a>
+      <a href="/states/" data-i18n="nav.states">Help in your state</a>
+      <a href="/updates/" data-i18n="nav.updates">What's changing</a>
+      <a href="/about/" data-i18n="nav.about">About</a>
+    </nav>
     <div class="tools">
-      <label class="quiet" for="langSel" style="font-size:.8rem" data-i18n="langLabel">Language</label>
+      <label for="langSel" data-i18n="langLabel">Language</label>
       <select id="langSel" aria-label="Choose language"></select>
       <button class="tbtn" id="sizeBtn" aria-pressed="false" data-i18n="largerText">Larger text</button>
-      <button class="tbtn" id="themeBtn" aria-label="Dark mode">&#9790;</button>
+      <button class="tbtn" id="themeBtn" aria-label="Switch to dark theme"></button>
+      <a class="btn primary donatebtn" href="/donate/" data-i18n="nav.donate">Donate</a>
     </div>
   </div>
 </header>
@@ -78,6 +85,7 @@
     <a href="/resources/" data-i18n="nav.resources">Resources</a>
     <a href="/updates/" data-i18n="nav.updates">What's changing</a>
     <p class="sidehead" data-i18n="side.site">This site</p>
+    <a href="/donate/" data-i18n="nav.donate">Donate</a>
     <a href="/feedback/" data-i18n="nav.feedback">Feedback</a>
     <a href="/about/" data-i18n="nav.about">About</a>
     <a href="/contact/" data-i18n="nav.contact">Contact</a>
@@ -92,7 +100,7 @@
     <div class="sec first">
       <h1>What the research actually says</h1>
       <p class="lede">A plain summary of where the evidence is strong, where it's genuinely uncertain, and where claims are being made that the science doesn't support.</p>
-      <div class="note" style="margin-top:0"><p><strong>This is general information, not medical advice.</strong> It describes what research has found across groups of people. It cannot tell you what is right for your child, and it is not a substitute for a conversation with your child's doctor, therapist or care team. Do not start, stop or change any treatment, diet, supplement or medication based on what you read here. If something on this page conflicts with what a clinician who knows your child has told you, ask them about it rather than acting on this page.</p></div>
+      <div class="mt0 note"><p><strong>This is general information, not medical advice.</strong> It describes what research has found across groups of people. It cannot tell you what is right for your child, and it is not a substitute for a conversation with your child's doctor, therapist or care team. Do not start, stop or change any treatment, diet, supplement or medication based on what you read here. If something on this page conflicts with what a clinician who knows your child has told you, ask them about it rather than acting on this page.</p></div>
 
     </div>
     <div class="note"><p><strong>New claims since this page was written.</strong> Leucovorin and acetaminophen (Tylenol) have been in the news since late 2025. <a href="/updates/">See what the evidence actually shows</a>.</p></div>
@@ -135,7 +143,7 @@
     <div class="sec first">
       <h1>Qué dice realmente la investigación</h1>
       <p class="lede">Un resumen claro de dónde la evidencia es sólida, dónde hay incertidumbre real y dónde se hacen afirmaciones que la ciencia no respalda.</p>
-      <div class="note" style="margin-top:0"><p><strong>Esto es información general, no consejo médico.</strong> Describe lo que la investigación ha encontrado en grupos de personas. No puede decirle qué es lo correcto para su hijo y no sustituye una conversación con su médico o su equipo de atención. No empiece, suspenda ni cambie ningún tratamiento, dieta, suplemento o medicación por lo que lea aquí. Si algo de esta página contradice lo que le ha dicho un profesional que conoce a su hijo, pregúntele en lugar de actuar por su cuenta.</p></div>
+      <div class="mt0 note"><p><strong>Esto es información general, no consejo médico.</strong> Describe lo que la investigación ha encontrado en grupos de personas. No puede decirle qué es lo correcto para su hijo y no sustituye una conversación con su médico o su equipo de atención. No empiece, suspenda ni cambie ningún tratamiento, dieta, suplemento o medicación por lo que lea aquí. Si algo de esta página contradice lo que le ha dicho un profesional que conoce a su hijo, pregúntele en lugar de actuar por su cuenta.</p></div>
     </div>
     <div class="note"><p><strong>Nuevas afirmaciones desde que se escribió esta página.</strong> La leucovorina y el acetaminofén (Tylenol) han estado en las noticias desde finales de 2025. <a href="/updates/">Vea qué muestra realmente la evidencia</a>.</p></div>
     <div class="sec">
@@ -178,7 +186,7 @@
     <div class="sec first">
       <h1>अनुसन्धानले वास्तवमा के भन्छ</h1>
       <p class="lede">कहाँ प्रमाण बलियो छ, कहाँ साँच्चिकै अनिश्चितता छ, र कहाँ विज्ञानले नसमर्थन गर्ने दाबी गरिँदै छ — यसको सरल सारांश।</p>
-      <div class="note" style="margin-top:0"><p><strong>यो सामान्य जानकारी हो, चिकित्सकीय सल्लाह होइन।</strong> यसले मानिसहरूको समूहमा अनुसन्धानले के भेट्यो भन्ने बताउँछ। तपाईंको बच्चाका लागि के ठीक हो भन्ने यसले भन्न सक्दैन, र यो तपाईंको डाक्टर वा उपचार टोलीसँगको कुराकानीको विकल्प होइन। यहाँ पढेको आधारमा कुनै पनि उपचार, आहार, सप्लिमेन्ट वा औषधि सुरु, बन्द वा परिवर्तन नगर्नुहोस्। यो पृष्ठमा लेखिएको कुरा तपाईंको बच्चालाई चिन्ने चिकित्सकले भनेकोसँग बाझिन्छ भने आफैँ निर्णय नगरी उहाँलाई सोध्नुहोस्।</p></div>
+      <div class="mt0 note"><p><strong>यो सामान्य जानकारी हो, चिकित्सकीय सल्लाह होइन।</strong> यसले मानिसहरूको समूहमा अनुसन्धानले के भेट्यो भन्ने बताउँछ। तपाईंको बच्चाका लागि के ठीक हो भन्ने यसले भन्न सक्दैन, र यो तपाईंको डाक्टर वा उपचार टोलीसँगको कुराकानीको विकल्प होइन। यहाँ पढेको आधारमा कुनै पनि उपचार, आहार, सप्लिमेन्ट वा औषधि सुरु, बन्द वा परिवर्तन नगर्नुहोस्। यो पृष्ठमा लेखिएको कुरा तपाईंको बच्चालाई चिन्ने चिकित्सकले भनेकोसँग बाझिन्छ भने आफैँ निर्णय नगरी उहाँलाई सोध्नुहोस्।</p></div>
     </div>
     <div class="note"><p><strong>यो पृष्ठ लेखिएपछिका नयाँ दाबीहरू।</strong> सन् २०२५ को उत्तरार्धदेखि ल्युकोभोरिन र एसिटामिनोफेन (टाइलेनोल) चर्चामा छन्। <a href="/updates/">प्रमाणले वास्तवमा के भन्छ हेर्नुहोस्</a>।</p></div>
     <div class="sec">
@@ -224,6 +232,7 @@
 <footer class="site">
   <div class="wrap">
         <ul class="footnav">
+      <li><a href="/donate/" data-i18n="nav.donate">Donate</a></li>
       <li><a href="/about/" data-i18n="nav.about">About</a></li>
       <li><a href="/feedback/" data-i18n="nav.feedback">Feedback</a></li>
       <li><a href="/contact/" data-i18n="nav.contact">Contact</a></li>
@@ -237,6 +246,6 @@
   </div>
 </footer>
 
-<script src="/assets/site.202610131506.js"></script>
+<script src="/assets/site.202610221200.js"></script>
 </body>
 </html>

@@ -5,29 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>What's changing — Yuvan</title>
 <meta name="description" content="Policy changes affecting autistic children and their families in 2026: Medicaid waivers, special education, Section 504, vaccine schedules, and claims about leucovorin and acetaminophen.">
-<link rel="canonical" href="https://example.org/updates/">
+<link rel="canonical" href="https://yuvan.us/updates/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Yuvan">
 <meta property="og:title" content="What's changing — Yuvan">
 <meta property="og:description" content="Who runs Common Ground, how the content is written and reviewed, how it is funded, and what it will not do.">
-<meta property="og:url" content="https://example.org/updates/">
-<meta property="og:image" content="https://example.org/assets/share.png">
+<meta property="og:url" content="https://yuvan.us/updates/">
+<meta property="og:image" content="https://yuvan.us/assets/share.png">
 <meta property="og:image:alt" content="Yuvan — a complete guide to autism for families">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="What's changing — Yuvan">
 <meta name="twitter:description" content="Who runs Common Ground, how the content is written and reviewed, how it is funded, and what it will not do.">
-<meta name="twitter:image" content="https://example.org/assets/share.png">
-<meta name="theme-color" content="#FBF8F4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141C1A" media="(prefers-color-scheme: dark)">
+<meta name="twitter:image" content="https://yuvan.us/assets/share.png">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Noto+Sans+Arabic:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/assets/site.202610131506.css">
+<meta name="theme-color" content="#FAFAF8">
+<script src="/assets/theme.202610221200.js"></script>
+<link rel="stylesheet" href="/assets/site.202610221200.css">
 
 </head>
 <body>
@@ -45,18 +45,25 @@
 <header class="site">
   <div class="bar">
     <button class="menubtn" id="menuBtn" aria-expanded="false" aria-controls="sidenav">
-      <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M1 1h14M1 6h14M1 11h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M1 1h14M1 6h14M1 11h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       <span data-i18n="menu">Menu</span>
     </button>
     <a class="logo" href="/">
       <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M7 20.5c0 8.3 6.7 15 15 15s15-6.7 15-15" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M2.5 24c2.6 9.4 10.4 16 19.5 16s16.9-6.6 19.5-16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".32"/><circle cx="22" cy="13.5" r="6" fill="currentColor"/></svg>
       <span class="brandtext"><span class="names"><b>Yuvan</b><i>Common Ground</i></span><em data-i18n="tagline">A complete autism guide</em></span>
     </a>
+    <nav class="topnav" aria-label="Quick links">
+      <a href="/understanding/" data-i18n="nav.understanding">Understanding autism</a>
+      <a href="/states/" data-i18n="nav.states">Help in your state</a>
+      <a aria-current="page" href="/updates/" data-i18n="nav.updates">What's changing</a>
+      <a href="/about/" data-i18n="nav.about">About</a>
+    </nav>
     <div class="tools">
-      <label class="quiet" for="langSel" style="font-size:.8rem" data-i18n="langLabel">Language</label>
+      <label for="langSel" data-i18n="langLabel">Language</label>
       <select id="langSel" aria-label="Choose language"></select>
       <button class="tbtn" id="sizeBtn" aria-pressed="false" data-i18n="largerText">Larger text</button>
-      <button class="tbtn" id="themeBtn" aria-label="Dark mode">&#9790;</button>
+      <button class="tbtn" id="themeBtn" aria-label="Switch to dark theme"></button>
+      <a class="btn primary donatebtn" href="/donate/" data-i18n="nav.donate">Donate</a>
     </div>
   </div>
 </header>
@@ -78,6 +85,7 @@
     <a href="/resources/" data-i18n="nav.resources">Resources</a>
     <a href="/updates/" data-i18n="nav.updates" aria-current="page">What's changing</a>
     <p class="sidehead" data-i18n="side.site">This site</p>
+    <a href="/donate/" data-i18n="nav.donate">Donate</a>
     <a href="/feedback/" data-i18n="nav.feedback">Feedback</a>
     <a href="/about/" data-i18n="nav.about">About</a>
     <a href="/contact/" data-i18n="nav.contact">Contact</a>
@@ -91,8 +99,8 @@
     <div class="sec first">
       <h1>What's changing</h1>
       <p class="lede">Federal rules that affect autistic children and their families have shifted a great deal in 2026. This page tracks what actually changed, when, and what it means in practice. It takes no political side — just the facts and the dates.</p>
-      <p class="quiet">Last reviewed: October 2026</p>
-      <div class="note" style="margin-top:0"><p><strong>Your child's core rights have not been repealed.</strong> IDEA, Section 504 and the ADA are all still law. IEPs and 504 plans are still binding. Early intervention is still free. What has changed is which agency runs things, how often you must prove eligibility, and how much funding states have.</p></div>
+      <p class="quiet">Last reviewed: 22 October 2026</p>
+      <div class="mt0 note"><p><strong>Your child's core rights have not been repealed.</strong> IDEA, Section 504 and the ADA are all still law. IEPs and 504 plans are still binding. Early intervention is still free. What has changed is which agency runs things, how often you must prove eligibility, and how much funding states have.</p></div>
     </div>
 
     <div class="sec">
@@ -129,21 +137,21 @@
     </div>
 
     <div class="sec">
-      <h2>3. Section 504 regulations are being challenged in court</h2>
-      <p>A lawsuit originally filed as <em>Texas v. Becerra</em>, now <em>Texas v. Kennedy</em>, continues in federal court in Texas. As of September 2026 five states remain as plaintiffs: <strong>Texas, Alaska, Louisiana, Montana and Florida</strong>.</p>
+      <h2>3. A court removed Section 504's community-integration rules</h2>
+      <p>On <strong>23 September 2026</strong> a federal court in Texas, in the case <em>Texas v. Kennedy</em> (first filed as <em>Texas v. Becerra</em>), approved a settlement between the federal government and the states that brought the case. It strikes down the parts of the 2024 Section 504 regulations about <strong>community integration</strong>: the rules saying people with disabilities have a right to services in the most integrated setting, rather than in an institution.</p>
       <ul>
-        <li>The states <strong>no longer argue that Section 504 itself is unconstitutional</strong>. They dropped that claim after substantial objection from the disability community.</li>
-        <li>They are asking the court to strike down the <strong>2024 regulations</strong> that explain how Section 504 must be enforced — including the integration mandate, which protects the right to receive services in the community rather than in an institution.</li>
-        <li>A ruling could come before the end of 2026.</li>
+        <li><strong>Section 504 itself is still law.</strong> The states dropped their claim that it is unconstitutional in 2025, after strong objection from the disability community.</li>
+        <li>The disability organisations that opposed the settlement say the <strong>rest of the 2024 regulations are not affected</strong>, and that it cannot overturn court decisions such as <em>Olmstead v. L.C.</em> (1999), which recognise a right to community living.</li>
+        <li>They also say the order <strong>removes federal monitoring and enforcement</strong> of community integration, and some are asking states to write these protections into state law.</li>
       </ul>
-      <p><strong>What this means today:</strong> Section 504 remains in force, and so do 504 plans. Nothing about your child's current plan changes while the case is pending. If the regulations are struck down, the law would still exist, but the rules explaining how it is enforced would be weaker. This is worth watching, not panicking about.</p>
+      <p><strong>What this means today:</strong> school 504 plans are governed by separate Department of Education rules and are not changed by this order. They are still binding. The change matters most for children and adults who rely on community-based services instead of institutional care. If a service is cut, or you are told care must move to an institution or a segregated setting, contact your state's Protection &amp; Advocacy agency.</p>
     </div>
 
     <div class="sec">
       <h2>4. Claims about leucovorin and Tylenol</h2>
       <p>In September 2025, a White House press conference promoted leucovorin (folinic acid) as a treatment for autism and raised concerns about acetaminophen — Tylenol — during pregnancy. Many families have heard about this from relatives or social media since. Here is where the evidence stands.</p>
       <div class="grid g2">
-        <div class="card"><span class="tag l">Leucovorin</span><h3>Not approved for autism</h3><p>The FDA label change covers <strong>cerebral folate deficiency</strong>, a specific and uncommon diagnosis — not autism in general. The American Academy of Pediatrics has said it does not recommend routine use of leucovorin for autistic children.</p></div>
+        <div class="card"><span class="tag l">Leucovorin</span><h3>Not approved for autism</h3><p>In <strong>March 2026</strong> the FDA approved leucovorin for <strong>cerebral folate deficiency</strong> linked to changes in the FOLR1 gene, a specific and rare diagnosis, and said the evidence was not enough to approve it for autism. The American Academy of Pediatrics has said it does not recommend routine use of leucovorin for autistic children.</p></div>
         <div class="card"><span class="tag l">Leucovorin</span><h3>The main supporting study was retracted</h3><p>In early 2026 the largest randomised trial supporting leucovorin for autism was retracted — the same study cited in the federal announcement. The evidence base is now weaker than it was when the announcement was made.</p></div>
         <div class="card"><span class="tag l">Leucovorin</span><h3>Prescribing rose sharply anyway</h3><p>Prescriptions for children rose substantially in the months after the announcement. Researchers have raised concerns about children being exposed to a treatment of uncertain benefit, and about shortages for cancer patients who rely on the drug.</p></div>
         <div class="card"><span class="tag l">Acetaminophen</span><h3>Large studies do not show causation</h3><p>A large Swedish sibling-comparison study published in JAMA found acetaminophen use in pregnancy was not associated with autism, ADHD or other neurodevelopmental disorders. A later appraisal of nine systematic reviews covering forty studies concluded the evidence is insufficient to establish a link.</p></div>
@@ -157,7 +165,15 @@
       <p>On <strong>5 January 2026</strong> the CDC published a revised childhood immunization schedule recommending fewer vaccines routinely for all children, and sorting the rest into three categories: routine, risk-based, and shared clinical decision-making. Several vaccines moved out of the universal category, including hepatitis A, hepatitis B, RSV, dengue and meningococcal; rotavirus, COVID-19 and influenza moved to shared decision-making.</p>
       <p>The American Academy of Pediatrics published its own 2026 schedule that continues to recommend several of the vaccines the CDC moved, and has said it does not endorse the CDC schedule.</p>
       <p><strong>What this means for you:</strong> the two schedules now differ, so "the recommended schedule" is no longer a single document. Ask your paediatrician directly which schedule their practice follows and why. Expect more conversations about individual vaccines than in previous years — hepatitis B at birth in particular is now handled differently.</p>
-      <p class="quiet">This is a change in recommendations, not a finding about autism. The research on vaccines and autism is unchanged.</p>
+      <p>On <strong>10 August 2026</strong> the President signed an executive order directing health agencies to change childhood vaccine recommendations further, including spreading vaccines across more visits and developing separate measles, mumps and rubella shots in place of the combined MMR. It does not ban any vaccine or change school-entry requirements, which states set. The AAP called the order dangerous and continues to recommend its own 2026 schedule, which covers 18 diseases.</p>
+      <p>Separately, in November 2025 the CDC rewrote its "Autism and vaccines" web page to say that "vaccines do not cause autism" is not an evidence-based claim. The AAP and other medical groups rejected the change.</p>
+      <p class="quiet">These are changes in recommendations and wording, not new findings about autism. The research on vaccines and autism is unchanged.</p>
+    </div>
+
+    <div class="sec">
+      <h2>6. A national alert for missing autistic people is being planned</h2>
+      <p>On <strong>21 August 2026</strong> HHS announced a National Autism Missing and Endangered Person Alert initiative, working with the Department of Justice and FEMA to improve how authorities respond when an autistic child or adult goes missing. HHS has only started designing it: <strong>there is no national alert to sign up for yet.</strong></p>
+      <p><strong>What to do now:</strong> if your child is missing, call 911 straight away, say "autistic and may not respond to their name", and mention any water nearby. Ask your local police whether they keep a voluntary registry for residents with disabilities, and keep a recent photo and a short description of your child on your phone.</p>
     </div>
 
     <div class="sec">
@@ -180,7 +196,7 @@
       <h1>Qué está cambiando</h1>
       <p class="lede">Las normas federales que afectan a los niños autistas y a sus familias han cambiado mucho en 2026. Esta página sigue qué cambió realmente, cuándo y qué significa en la práctica. No toma partido político: solo los hechos y las fechas.</p>
       <p class="quiet">Última revisión: octubre de 2026</p>
-      <div class="note" style="margin-top:0"><p><strong>Los derechos básicos de su hijo no han sido derogados.</strong> IDEA, la Sección 504 y la ADA siguen siendo ley. Los IEP y los planes 504 siguen siendo vinculantes. La intervención temprana sigue siendo gratuita. Lo que ha cambiado es qué agencia gestiona las cosas, con qué frecuencia hay que demostrar la elegibilidad y cuánta financiación tienen los estados.</p></div>
+      <div class="mt0 note"><p><strong>Los derechos básicos de su hijo no han sido derogados.</strong> IDEA, la Sección 504 y la ADA siguen siendo ley. Los IEP y los planes 504 siguen siendo vinculantes. La intervención temprana sigue siendo gratuita. Lo que ha cambiado es qué agencia gestiona las cosas, con qué frecuencia hay que demostrar la elegibilidad y cuánta financiación tienen los estados.</p></div>
     </div>
 
     <div class="sec">
@@ -268,7 +284,7 @@
       <h1>के बदलिँदै छ</h1>
       <p class="lede">अटिस्टिक बालबालिका र उनीहरूका परिवारलाई असर गर्ने सङ्घीय नियमहरू सन् २०२६ मा धेरै बदलिएका छन्। यो पृष्ठले वास्तवमा के बदलियो, कहिले बदलियो र व्यवहारमा त्यसको अर्थ के हो भन्ने पछ्याउँछ। यसले कुनै राजनीतिक पक्ष लिँदैन — तथ्य र मिति मात्र।</p>
       <p class="quiet">पछिल्लो समीक्षा: अक्टोबर २०२६</p>
-      <div class="note" style="margin-top:0"><p><strong>तपाईंको बच्चाका आधारभूत अधिकार खारेज भएका छैनन्।</strong> IDEA, Section 504 र ADA सबै अझै कानुन हुन्। IEP र 504 योजना अझै बाध्यकारी छन्। अर्ली इन्टरभेन्सन अझै निःशुल्क छ। बदलिएको कुरा हो — कुन निकायले चलाउँछ, कति पटक योग्यता प्रमाणित गर्नुपर्छ, र राज्यहरूसँग कति रकम छ।</p></div>
+      <div class="mt0 note"><p><strong>तपाईंको बच्चाका आधारभूत अधिकार खारेज भएका छैनन्।</strong> IDEA, Section 504 र ADA सबै अझै कानुन हुन्। IEP र 504 योजना अझै बाध्यकारी छन्। अर्ली इन्टरभेन्सन अझै निःशुल्क छ। बदलिएको कुरा हो — कुन निकायले चलाउँछ, कति पटक योग्यता प्रमाणित गर्नुपर्छ, र राज्यहरूसँग कति रकम छ।</p></div>
     </div>
 
     <div class="sec">
@@ -358,6 +374,7 @@
 <footer class="site">
   <div class="wrap">
         <ul class="footnav">
+      <li><a href="/donate/" data-i18n="nav.donate">Donate</a></li>
       <li><a href="/about/" data-i18n="nav.about">About</a></li>
       <li><a href="/feedback/" data-i18n="nav.feedback">Feedback</a></li>
       <li><a href="/contact/" data-i18n="nav.contact">Contact</a></li>
@@ -371,6 +388,6 @@
   </div>
 </footer>
 
-<script src="/assets/site.202610131506.js"></script>
+<script src="/assets/site.202610221200.js"></script>
 </body>
 </html>
